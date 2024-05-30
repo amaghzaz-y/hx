@@ -3,6 +3,10 @@
   "version": "0.1",
   "license": "MIT",
   "main": "./src/index.ts",
+  "exports": {
+    "default": "./src/index.ts",
+    "import": "./src/index.ts"
+  },
   "scripts": {
     "build": "unbuild",
     "dev": "vitest",
