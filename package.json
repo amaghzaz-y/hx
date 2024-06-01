@@ -1,6 +1,6 @@
 {
   "name": "hx",
-  "version": "0.1",
+  "version": "1.0.0",
   "license": "MIT",
   "sideEffects": false,
   "exports": {
@@ -21,8 +21,6 @@
     "prepare": "npm run build",
     "build": "unbuild",
     "dev": "vitest",
-    "release": "npm test && npm build && changelogen --release && npm publish && git push --follow-tags",
-    "release-rc": "npm test && npm build && changelogen --release --prerelease rc --push --publish --publishTag rc",
     "test": "vitest --run --coverage"
   },
   "dependencies": {
